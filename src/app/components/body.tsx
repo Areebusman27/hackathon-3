@@ -1,5 +1,4 @@
 import Image from "next/image"
-import product from "./image 3.png"
 import main from "./Mask Group.jpg"
 import main1 from "./Group 115.png"
 import main2 from "./Share.png"
