@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import bg from "../Rectangle 1.png";
-import product from "../image 3.png";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getCartitems, removeCart, updateQuantity } from "../../actions/cart"; // Adjust the import path

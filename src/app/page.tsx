@@ -1,16 +1,7 @@
-import { sanityFetch } from "@/sanity/lib/fetch";
-import Body from "./components/body";
-import { allProuducts } from "@/sanity/lib/queries";
-import Image from "next/image";
 
-type Product = {
-  _id : string
-  name : string
-  price : string
-  description : string
-  imageUrl:string
-  stockLevel : number
-}
+import Body from "./components/body";
+
+
 
 export default  function Home() {
 
